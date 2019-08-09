@@ -29,10 +29,11 @@ C is the mean vote across the whole report
 In this section, I will try to build a system that recommends products that are similar to a particular product. More specifically, I will compute pairwise similarity scores using " Cosine Similarity "  for all movies based on their reviews and recommend products based on that similarity score. This recommender will return the productIds corresponding to the indices of the top 10 elements.
 
 ## 3. Collaborative filtering engines (predict a user’s response to a product)
-In order to predict a user’s response to a product, it is necessary to understand the tastes of the user and the properties of the product. The taste of the user can be learned from user’s review of various products. The properties of the product can be obtained by mining the reviews given by multiple users. Attainment of the tastes of the user and properties of the product will allow us to estimate whether a user will have positive or negative reactions to the products. In order to do so, the model: 
-● Step 1: attempts to find similar products based on qualitative reviews. 
-● Step 2, compares quantitative review and qualitative review to create a connection between the two distinctive scales 
-● Step 3: analyze each user’s qualitative review and recommend the products using Step 1 and filter out the low ranking products by incorporating Step 2 With these steps, the model is able to create a strong recommendation for the customers by comparing the quantitative and qualitative review of the sample population with the specific customer’s reviews.
+In order to predict a user’s response to a product, it is necessary to understand the tastes of the user and the properties of the product. The taste of the user can be learned from user’s review of various products. The properties of the product can be obtained by mining the reviews given by multiple users. Attainment of the tastes of the user and properties of the product will allow us to estimate whether a user will have positive or negative reactions to the products. 
+In order to do so, the model: <br/>
+● Step 1: attempts to find similar products based on qualitative reviews. <br/>
+● Step 2, compares quantitative review and qualitative review to create a connection between the two distinctive scales <br/>
+● Step 3: analyze each user’s qualitative review and recommend the products using Step 1 and filter out the low ranking  products by incorporating Step 2 With these steps, the model is able to create a strong recommendation for the customers by comparing the quantitative and qualitative review of the sample population with the specific customer’s reviews.
 
 I firstly built KNN (k=17) with model accuracy =83.82%.
 Then I built base Random Forest with model accuracy= 83.04%
