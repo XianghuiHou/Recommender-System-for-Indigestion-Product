@@ -2,7 +2,7 @@
 ## Introduction
 Recommender systems are among the most popular applications of data science today. They are used to predict the "rating" or "preference" that a user would give to an item. Almost every major tech company has applied them in some form or the other: Amazon uses it to suggest products to customers, YouTube uses it to decide which video to play next on autoplay, and Facebook uses it to recommend pages to like and people to follow.
 
-Broadly, I built three recommender systems using Amazon Indigestionproduct review dataset(7000 records)
+Broadly, I built three recommender systems using Amazon Indigestion products review dataset(7000 records)
 
 1.Simple recommenders: offer generalized recommendations to every user, based on product popularity. The basic idea behind this system is that products that are more popular and critically acclaimed will have a higher probability of being liked by the average buyers. 
 
